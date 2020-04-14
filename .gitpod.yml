@@ -1,8 +1,5 @@
 ports:
   - port: 8080
-tasks:
-  - init: echo "php -v"
-    command: echo "You can access the http server using following url:"
-    command: echo "gp url 8080"
+    onOpen: notify
 image:
   file: .gitpod.Dockerfile
