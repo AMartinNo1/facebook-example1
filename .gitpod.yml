@@ -1,6 +1,8 @@
+ports:
+  - port: 8080
 tasks:
-  - init: echo "Replace me with a build script for the project."
-    command: echo "Replace me with something that should run on every start, or just
-      remove me entirely."
+  - init: echo "php -v"
+    command: echo "You can access the http server using following url:"
+    command: echo "gp url 8080"
 image:
   file: .gitpod.Dockerfile
