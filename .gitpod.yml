@@ -1,5 +1,9 @@
+image:
+  file: .gitpod.Dockerfile
 ports:
   - port: 8080
     onOpen: notify
-image:
-  file: .gitpod.Dockerfile
+tasks:
+  - name: Apache
+    command: >
+      apachectl start
