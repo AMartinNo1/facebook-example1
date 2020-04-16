@@ -1,0 +1,5 @@
+[Thu Apr 16 19:59:28.729874 2020] [so:warn] [pid 1856] AH01574: module rewrite_module is already loaded, skipping
+[Thu Apr 16 19:59:29.124587 2020] [mpm_prefork:notice] [pid 1910] AH00163: Apache/2.4.41 (Ubuntu) configured -- resuming normal operations
+[Thu Apr 16 19:59:29.124727 2020] [core:notice] [pid 1910] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Apr 16 20:15:36.008324 2020] [php7:error] [pid 2032] [client 127.0.0.1:43038] PHP Fatal error:  Uncaught Error: Cannot access protected property Facebook\\Facebook::$oAuth2Client in /workspace/lamp/index.php:22\nStack trace:\n#0 {main}\n  thrown in /workspace/lamp/index.php on line 22, referer: https://d6fa82d4-3157-423f-b8c5-0dca45d22144.ws-eu01.gitpod.io/
+[Thu Apr 16 20:15:36.154621 2020] [php7:error] [pid 2034] [client 127.0.0.1:43052] PHP Fatal error:  Uncaught Error: Cannot access protected property Facebook\\Facebook::$oAuth2Client in /workspace/lamp/index.php:22\nStack trace:\n#0 {main}\n  thrown in /workspace/lamp/index.php on line 22, referer: https://d6fa82d4-3157-423f-b8c5-0dca45d22144.ws-eu01.gitpod.io/
