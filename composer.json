@@ -1,5 +1,5 @@
 {
-    "name": "amartinno1/example-facebook-gitpod",
+    "name": "nostadt/example-facebook-gitpod",
     "type": "example",
     "require": {
         "facebook/graph-sdk": "^5.7"
